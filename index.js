@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors(
   {
-  origin: ['http://localhost:3000'],
+  origin: ['https://keen-centaur-b5df4f.netlify.app'],
   credentials: true,
 }
 ));
